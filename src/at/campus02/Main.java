@@ -7,5 +7,9 @@ public class Main {
         DBPKlausurHelper dbHelper = new DBPKlausurHelper();
         dbHelper.createTableKlausurProjekte();
 
+        KlausurProjekte projektRechnungsverwaltung =new KlausurProjekte(-1,"Rechnungsverwaltung","Software",1200000,8);
+
+        System.out.println("Projektinfo " + projektRechnungsverwaltung);
+
     }
 }
