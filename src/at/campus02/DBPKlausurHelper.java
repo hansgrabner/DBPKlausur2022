@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class DBPKlausurHelper {
     private String url = "jdbc:sqlite:C:\\LVs\\DBP2022\\db\\DBPKlausur.db";
 
-    //Aufgabe 3
+    //Aufgabe 2a
     public void createTableKlausurProjekte(){
 
         try (Connection conn = DriverManager.getConnection(url)) {
